@@ -12,4 +12,5 @@ jobs:
     - run: cd mashup && npm i
     - run: cd mashup && npm i lint
     - run: cd mashup && npm run lint
+    - run: cd unittesting && node returnHello.test.js
     
