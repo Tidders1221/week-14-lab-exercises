@@ -5,5 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: npm i
-      - run: cd insecure && npm audit
+      - run: cd insecure && npm i
+      - run: npm audit
