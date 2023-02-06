@@ -8,4 +8,4 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v3
     - run: cd insecure && npm i
-    - run: npm audit
+    - run: cd insecure && npm audit
