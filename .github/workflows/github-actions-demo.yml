@@ -9,15 +9,15 @@ jobs:
         uses: actions/checkout@v3
 
       - name: checks vunerbilites
-        run: cd insecure && npm i
-        run: cd insecure && npm audit
-        run: cd mashup && npm i
+      - run: cd insecure && npm i
+      - run: cd insecure && npm audit
+      - run: cd mashup && npm i
 
       - name: checks lint
-        run: cd mashup && npm i lint
-        run: cd mashup && npm run lint
+      - run: cd mashup && npm i lint
+      - run: cd mashup && npm run lint
 
       - name: runs the js test
-        run: cd unittesting && npm i
-        run: cd unittesting && npm run test
+      - run: cd unittesting && npm i
+      - run: cd unittesting && npm run test
     
