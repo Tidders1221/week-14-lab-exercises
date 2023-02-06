@@ -12,5 +12,6 @@ jobs:
     - run: cd mashup && npm i
     - run: cd mashup && npm i lint
    #- run: cd mashup && npm run lint
+    - run: cd unittesting && npm i
     - run: cd unittesting && npm run test
     
